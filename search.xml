@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title>先实现一个小目标</title>
-      <link href="/20230212/%E5%85%88%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%9B%AE%E6%A0%87/"/>
-      <url>/20230212/%E5%85%88%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%9B%AE%E6%A0%87/</url>
+      <title>浅谈 Go 1.20 版本的改变</title>
+      <link href="/20230212/%E6%B5%85%E8%B0%88-Go-1.20-%E7%89%88%E6%9C%AC%E7%9A%84%E6%94%B9%E5%8F%98/"/>
+      <url>/20230212/%E6%B5%85%E8%B0%88-Go-1.20-%E7%89%88%E6%9C%AC%E7%9A%84%E6%94%B9%E5%8F%98/</url>
       
         <content type="html"><![CDATA[<p>测试一下</p>]]></content>
       
       
+      <categories>
+          
+          <category> 后端 </category>
+          
+          <category> Go </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Go </tag>
+            
+        </tags>
       
     </entry>
     
