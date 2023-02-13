@@ -30,3 +30,36 @@ img {
 #page-header:not(.not-top-img):before {
   background-color: transparent !important;
 }
+
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/* 文章页背景 */
+.layout_post > #post {
+  /* 以下代表透明度为0.5 可以自行修改*/
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 所有页面背景 */
+.cardHover,
+.error404 #error-wrap .error-content,
+.layout > div:first-child:not(.recent-posts),
+#recent-posts > .recent-post-item,
+#aside-content .card-widget,
+.layout > .recent-posts .pagination > *:not(.space) {
+  border-radius: 8px;
+  background: var(--card-bg);
+  -webkit-box-shadow: var(--card-box-shadow);
+  box-shadow: var(--card-box-shadow);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0.78;
+}
