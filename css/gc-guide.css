@@ -1,0 +1,30 @@
+.gc-guide-graph {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+.gc-guide-graph-controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.gc-guide-graph-controls div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 24px;
+  width: auto;
+}
+.gc-guide-equation {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
