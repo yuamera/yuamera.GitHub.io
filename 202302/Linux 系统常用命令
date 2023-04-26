@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Linux 系统常用命令 | Yuamera's Blog</title><meta name="robots" content="noindex"><meta name="author" content="Yuamera"><meta name="copyright" content="Yuamera"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="topLinux top命令用于实时显示 process 的动态。 nmon以交互方式显示本地系统统计信息并以记录方式记录系统统计信息。 nloadnload 命令用于查看linux网络流量状况，实时输出。 tcpflow用于在Unix之类的系统(如Linux)上分析网络流量。它可捕获通过TCP连接接收或传输的数据，并存储在文件中供以后分析，采用的格式便于协议分析和调试 ifconfigifcon">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux 系统常用命令">
-<meta property="og:url" content="https://yuamera.github.io/post/linux-cmd/index.html">
+<meta property="og:url" content="https://yuamera.github.io/202302/Linux%20%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4">
 <meta property="og:site_name" content="Yuamera&#39;s Blog">
 <meta property="og:description" content="topLinux top命令用于实时显示 process 的动态。 nmon以交互方式显示本地系统统计信息并以记录方式记录系统统计信息。 nloadnload 命令用于查看linux网络流量状况，实时输出。 tcpflow用于在Unix之类的系统(如Linux)上分析网络流量。它可捕获通过TCP连接接收或传输的数据，并存储在文件中供以后分析，采用的格式便于协议分析和调试 ifconfigifcon">
 <meta property="og:locale" content="zh_CN">
@@ -12,7 +12,7 @@
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="命令">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://yuamera.github.io/images/cmd_cover_00.png"><link rel="shortcut icon" href="https://picx.zhimg.com/v2-8f4ab8b5cfcf8bde5ea9c37d268e5ff8_l.jpg"><link rel="canonical" href="https://yuamera.github.io/post/linux-cmd/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://yuamera.github.io/images/cmd_cover_00.png"><link rel="shortcut icon" href="https://picx.zhimg.com/v2-8f4ab8b5cfcf8bde5ea9c37d268e5ff8_l.jpg"><link rel="canonical" href="https://yuamera.github.io/202302/Linux%20%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
